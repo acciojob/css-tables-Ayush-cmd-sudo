@@ -2,8 +2,18 @@
 table{
 	border collapse:saperate;
 }
+tr:nth-child(odd) td{
+	background-color:  #fff4e6;
+}
+tr:nth-child(even) td{
+	background-color:#e8f0ff;
+	
+}
+
 th,td{
 	margin: 2px;
 	border:2px solid #cfcfcf;
     border-radius:5px;
+    padding:8px;
+	
 }
